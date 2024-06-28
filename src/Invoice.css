@@ -1,0 +1,95 @@
+#invoice {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 600px;
+  font-size:smaller;
+  
+}
+
+.invoice-header {
+    display: flex;
+    align-items: right; /* Vertically align items */
+    justify-content: space-between;
+  }
+  
+  .invoice-header img {
+    margin-right: 10px; /* Space between the image and the text */
+  }
+  .flexi
+  {
+    line-height: 0.5;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+  }
+  .invoice-header h2,
+  .invoice-header p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .company-logo {
+    width: 150px;
+  }
+  /* start  */
+
+
+.seller-details,
+.order-details
+{
+    text-align: left;
+  }
+  .billing-details,
+  .shipping-details,
+  .invoice-details
+  {
+    line-height: 0.5;
+    text-align: right;
+  }
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.con{
+    text-align: right;
+    justify-content: space-between;
+}
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+.total {
+  margin: 20px 0;
+}
+
+.signature {
+  text-align: right;
+  line-height: 0.5;
+}
+
+.signature img {
+    /* width: 1px;
+    margin-right: 10px; */
+    /* text-align: right;
+  width: 10px; */
+  width: 100px;
+}
+
+.reverse-charge
+{
+    text-align: left;
+}
+
+.pdf
+{
+  text-align: center;
+}
